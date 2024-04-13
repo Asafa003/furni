@@ -1,0 +1,45 @@
+.contact-us-form {
+    padding: 112px 20%;
+    background: #eff2f1;
+}
+
+.location, .message {
+    display: flex;
+    align-items: center;
+}
+
+.location span {
+    background-color: #3b5d50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.message span {
+    background-color: #3b5d50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.location p, .message p {
+    align-self: center;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+label {
+ font-size: 14px;   
+}
+
+.formss {
+    height: 50px;
+    border-radius: 10px;
+
+}

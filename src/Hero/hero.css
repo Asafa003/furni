@@ -1,0 +1,143 @@
+.bg-main {
+    background-color: #3b5d50 !important;
+    position: relative;
+    padding: 130px 0;
+    z-index: 1;
+}
+
+.wrap {
+    max-width: 450px;
+}
+
+.fw-boldest {
+    font-weight: 900 !important;
+}
+
+.fs-mega {
+    font-size: 54px !important;
+}
+
+.couch {
+    position: absolute;
+    width: 51%;
+    right: 6%;
+    top: 5%;
+}
+
+.dot-container {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 310px;
+    height: 250px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.dot {
+    font-size: 45px;
+    line-height: 0;
+    color: white;
+    opacity: .4;
+}
+
+.text-subHeader {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fs-small {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+@media screen and (max-width:996px) {
+    .bg-main {
+        padding: 40px 0;
+    }
+    .wrap {
+        max-width: 100%;
+    }
+    .fs-mega {
+        font-size: 35px !important;
+    }
+    .fs-small {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .couch {
+        position: relative;
+        width: 110%;
+        margin-left: -8%;
+        top: 17%;
+    }
+    .dot-container {
+        width: 272px;
+        gap: 18px;
+        top: 30%;
+    }
+    .dot {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:768px)  {
+    .bg-main {
+        background-color: #3b5d50 !important;
+        position: relative;
+        overflow-x: hidden;
+        padding: 30px 0;
+        z-index: 1;
+    }
+
+    .hero {
+        margin-top: -1px !important;
+        /* border: none !important; */
+    }
+    
+    .wrap {
+        max-width: 450px;
+    }
+    
+    .fw-boldest {
+        font-weight: 900 !important;
+    }
+    
+    .fs-mega {
+        font-size: 28px !important;
+    }
+    .fs-small {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    .couch {
+        position: relative;
+        width: 190%;
+        left: 6%;
+        margin-top: 80px;
+    }
+
+    .dot-container {
+        width: 250px;
+        height: 200px;
+        gap: 10px;
+        top: 30%;
+        right: -12%;
+    }
+    
+    .text-subHeader {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+}
+
+@media screen and (max-width:440px) {
+    .dot-container {
+        right: -25%;
+        top: 40%;
+    }
+}
